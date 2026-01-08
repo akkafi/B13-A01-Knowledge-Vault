@@ -191,3 +191,49 @@
     color: rgba(98, 115, 130, 1);
 }
 /* notes section end here */
+
+/* second brain section start here */
+.second_brain_container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.second_brain_image img{
+    width: 600px;
+}
+
+.second_brain_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second_brain_text .sub_title_p{
+    color: rgba(70, 145, 101, 1);
+}
+
+.second_brain_text h2{
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.second_brain_text p{
+    color: rgba(98, 115, 130, 1);
+    line-height: 20px;
+}
+
+.second_text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.second_text p{
+    color: rgba(0, 25, 49, 1);
+}
+/* second brain section end here */
