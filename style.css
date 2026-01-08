@@ -1,3 +1,136 @@
-body{
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
+
+/* common class start here */
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.all_btn {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 16px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #30B868;
+    border: 2px solid #30B868;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.all_btn:hover {
+    background-color: rgba(26, 25, 25, 0.404);
+}
+
+/* common class end here */
+
+/* header section and nav section start here */
+.header_container {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.nav_section {
+    display: flex;
+    padding: 16px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_section img {
+    width: 140px;
+}
+
+.nav_section ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav_section ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav_section ul li a:hover {
+    color: rgb(226, 10, 10);
+}
+
+/* header section and nav section end here */
+
+
+/* hero section start here */
+.hero_parent {
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100vh;
+    color: white;
+}
+
+.hero_container .hero_btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(70, 145, 101, 1);
+    padding: 8px 12px;
+    border-radius: 1000px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero_btn:hover {
+    background-color: rgba(70, 145, 101, 0.192);
+    color: white;
+}
+
+.hero_container h2{
+    font-size: 72px;
+}
+
+.hero_container h2 span{
+    color: #30B868;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.hero_container p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.hero_section_btn .all_btn {
+    margin-right: 20px;
+}
+
+.hero_section_btn .all_btn_2 {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 16px;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid #30B868;
+    background-color: rgba(255, 222, 173, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero_section_btn .all_btn_2:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+/* hero section end here */
