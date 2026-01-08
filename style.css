@@ -98,17 +98,17 @@
     color: white;
 }
 
-.hero_container h2{
+.hero_container h2 {
     font-size: 72px;
 }
 
-.hero_container h2 span{
+.hero_container h2 span {
     color: #30B868;
     font-weight: 700;
     line-height: 84px;
 }
 
-.hero_container p{
+.hero_container p {
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     line-height: 24px;
@@ -129,8 +129,65 @@
     border-radius: 4px;
     cursor: pointer;
 }
-.hero_section_btn .all_btn_2:hover{
+
+.hero_section_btn .all_btn_2:hover {
     background-color: rgba(255, 255, 255, 0.144);
 }
 
 /* hero section end here */
+
+/* notes section start here */
+.notes_text {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.notes_text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: rgba(0, 25, 49, 1);
+}
+
+.notes_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 44px;
+}
+
+.notes_card_container {
+    display: flex;
+    gap: 24px;
+}
+
+.notes_card_container .notes_card {
+    width: 322px;
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.151);
+}
+
+.notes_card img{
+    width: 60px;
+    padding: 20px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50px;
+}
+
+.notes_card h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: rgba(0, 25, 49, 1);
+}
+
+.notes_card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+    color: rgba(98, 115, 130, 1);
+}
+/* notes section end here */
