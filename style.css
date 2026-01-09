@@ -253,6 +253,7 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    margin-top: 120px;
 }
 
 .ready_to_think_container h2{
@@ -269,3 +270,47 @@
 }
 /* ready to think section end here */
 
+/* footer section start here */
+.footer_perant{
+    background-color: rgba(0, 25, 49, 1);
+    padding: 120px 0 30px 0;
+    margin-top: 120px;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 83px;
+}
+.footer_container img{
+    width: 140px;
+}
+
+.footer_container p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.social_icon i{
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+    background-color: white;
+    border-radius: 1000px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.hr{
+    border: 1px solid rgb(235, 229, 229);
+    margin-bottom: 30px;
+}
+
+.footer_copy_right{
+    text-align: center;
+    color: rgba(250, 250, 250, 1);
+}
+
+/* footer section start here */
