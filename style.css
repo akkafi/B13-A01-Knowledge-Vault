@@ -234,11 +234,13 @@
 .second_text{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 15px;
 }
 
 .second_text p{
     color: rgba(0, 25, 49, 1);
+    display: flex;
+    gap: 10px;
 }
 /* second brain section end here */
 
