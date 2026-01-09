@@ -100,6 +100,7 @@
 
 .hero_container h2 {
     font-size: 72px;
+    text-transform: capitalize;
 }
 
 .hero_container h2 span {
@@ -147,6 +148,7 @@
     font-weight: 700;
     line-height: 58px;
     color: rgba(0, 25, 49, 1);
+    text-transform: capitalize;
 }
 
 .notes_text p {
@@ -181,6 +183,7 @@
     font-weight: 600;
     line-height: 29px;
     color: rgba(0, 25, 49, 1);
+    text-transform: capitalize;
 }
 
 .notes_card p{
@@ -220,6 +223,7 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
+    text-transform: capitalize;
 }
 
 .second_brain_text p{
@@ -237,3 +241,31 @@
     color: rgba(0, 25, 49, 1);
 }
 /* second brain section end here */
+
+
+/* ready to think section start here */
+.ready_to_think_container{
+    text-align: center;
+    padding: 80px 40px;
+    background: rgba(247, 246, 242, 1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.ready_to_think_container h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 25, 49, 1);
+    text-transform: capitalize;
+}
+
+.ready_to_think_container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* ready to think section end here */
+
